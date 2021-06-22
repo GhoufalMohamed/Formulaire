@@ -1,0 +1,246 @@
+body{
+    background-image: url('../Assets/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.myrow{
+    display:flex;
+
+}
+.control{
+    display :block;
+    border-radius: 3px 3px 3px 3px;
+    height : 35px;
+    width : 300px;
+    border-width: 1px;
+     border-color: rgb(177, 177, 177);
+}
+.first_col{
+    margin-right:5%;
+}
+.labels{
+    font-family: 'Raleway';
+    color: white;
+}
+.formCtrl{
+    margin-bottom: 3%;
+}
+.mybutton{
+    background-color: #5cb85c;
+    width : 120px;
+    height : 35px;
+    color : white;
+    font-family: 'Raleway';
+    border-color:#5cb85c ;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1%;
+    transition: 0.09s;
+
+}
+.Create{
+    font-size: 50px;
+    color :#5cb85c;
+    font-family: 'Raleway Light' !important;
+    font-weight: none;
+    font-style: normal;
+    text-align: center;
+}
+.container{
+    background-color: rgba(0,0,0,0.6);
+    width : 52%;
+    height: 420px;
+    padding : 3%;
+    margin : auto;
+    text-align: center;
+    margin-top: 5%;
+}
+@media screen and (max-width : 425px){
+    body{
+        background-image: url('../Assets/background.jpg');
+        background-size:  cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .myrow{
+        display:flex;
+        flex-direction: column;
+    
+    }
+    .control{
+        display :block;
+        border-radius: 3px 3px 3px 3px;
+        height : 25px;
+        width : 200px;
+        border-width: 1px;
+         border-color: rgb(177, 177, 177);
+    }
+    .first_col{
+        margin-right:5%;
+    }
+    .labels{
+        font-family: 'Raleway';
+        color: white;
+    }
+    .formCtrl{
+        margin-bottom: 3%;
+    }
+    .mybutton{
+        background-color: #5cb85c;
+        width : 120px;
+        height : 35px;
+        color : white;
+        font-family: 'Raleway';
+        border-color:#5cb85c ;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 1%;
+    
+    }
+    .Create{
+        font-size: 20px;
+        color :#5cb85c;
+        font-family: 'Raleway Light' !important;
+        font-weight: none;
+        font-style: normal;
+        text-align: center;
+    }
+    .container{
+        background-color: rgba(0,0,0,0.6);
+        width : 55%;
+        height: 420px;
+        padding : 3%;
+        margin : auto;
+        text-align: center;
+        margin-top: 15%;
+        margin-left: 22%;
+    }
+}
+@media screen and (max-width : 375px){
+    body{
+        background-image: url('../Assets/background.jpg');
+        background-size:  cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .myrow{
+        display:flex;
+        flex-direction: column;
+    
+    }
+    .control{
+        display :block;
+        border-radius: 3px 3px 3px 3px;
+        height : 25px;
+        width : 200px;
+        border-width: 1px;
+         border-color: rgb(177, 177, 177);
+    }
+    .first_col{
+        margin-right:5%;
+    }
+    .labels{
+        font-family: 'Raleway';
+        color: white;
+    }
+    .formCtrl{
+        margin-bottom: 3%;
+    }
+    .mybutton{
+        background-color: #5cb85c;
+        width : 120px;
+        height : 35px;
+        color : white;
+        font-family: 'Raleway';
+        border-color:#5cb85c ;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 1%;
+    
+    }
+    .Create{
+        font-size: 20px;
+        color :#5cb85c;
+        font-family: 'Raleway Light' !important;
+        font-weight: none;
+        font-style: normal;
+        text-align: center;
+    }
+    .container{
+        background-color: rgba(0,0,0,0.6);
+        width : 62%;
+        height: 420px;
+        padding : 3%;
+        margin : auto;
+        text-align: center;
+        margin-top: 22%;
+        margin-left: 19%;
+    }
+}
+@media screen and (max-width : 320px){
+    body{
+        background-image: url('../Assets/background.jpg');
+        background-size:  cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .myrow{
+        display:flex;
+        flex-direction: column;
+        margin-left: 4%;
+    
+    }
+    .control{
+        display :block;
+        border-radius: 3px 3px 3px 3px;
+        height : 25px;
+        width : 160px;
+        border-width: 1px;
+         border-color: rgb(177, 177, 177);
+    }
+    .first_col{
+        margin-right:5%;
+    }
+    .labels{
+        font-family: 'Raleway';
+        color: white;
+        font-size: 11px;
+    }
+    .formCtrl{
+        margin-bottom: 3%;
+    }
+    .mybutton{
+        background-color: #5cb85c;
+        width : 100px;
+        height : 28px;
+        color : white;
+        font-family: 'Raleway';
+        border-color:#5cb85c ;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 5%;
+        font-size: 11px;
+    
+    }
+    .Create{
+        font-size: 20px;
+        color :#5cb85c;
+        font-family: 'Raleway Light' !important;
+        font-weight: none;
+        font-style: normal;
+        text-align: center;
+    }
+    .container{
+        background-color: rgba(0,0,0,0.6);
+        width : 64%;
+        height: 420px;
+        padding : 3%;
+ 
+        margin : auto;
+        text-align: center;
+        margin-top: 20%;
+        margin-left: 16%;
+    }
+}
+

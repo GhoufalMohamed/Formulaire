@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link href="./Css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container"class='container'>
+        
+        <h1 class='Create' >Create an account </h1>
+    <form>
+        <div class='myrow'>
+           
+            <div class="first_col">
+                <div class='formCtrl'>
+                <label for="FirstName" class='labels'>First Name</label>
+                <input type="text"id='FirstName'class='control'> 
+                </div>
+                <div class='formCtrl'>
+                <label for="LastName" class='labels'>Last Name</label>
+                <input type="text"id='LastName'class='control'>
+                </div>
+                <div class='formCtrl'> 
+                <label for="email" class='labels'>Email</label>
+                <input type="text"id='email'class='control'> 
+                </div>
+           
+            </div>
+            <div class="second_col">
+                <div class='formCtrl'>
+                    <label for="password" class='labels'>Password</label>
+                    <input type="password"id='password'class='control'> 
+                    </div>
+                <div class='formCtrl'>
+                <label for="gender" class='labels'>Gender</label>
+                <select id='gender'class='control'>
+                    <option value='Homme'>Male</option>
+                    <option value="Femme">Female</option>
+                    <option vlaue="Autre">Other</option>
+                </select>
+                </div>
+                <div class='formCtrl'>
+                <label for="Name" class='labels'>Birthday</label>
+                <input type="date"id='Name'class='control'> 
+                </div>
+                
+            </div>
+        
+        </div>
+        <button id='myBtn'class='mybutton'type="button">Submit</button>
+    </form>
+    </div>
+    
+</body>
+<script>
+    let button=document.getElementById('myBtn');
+    button.addEventListener('mouseover',(e)=>{
+            e.target.style["width"]="135px";
+            e.target.style["height"]="38px";
+    });
+    button.addEventListener('mouseout',(e)=>{
+            e.target.style["width"]="120px";
+            e.target.style["height"]="35px";
+    });
+    button.addEventListener('click',(e)=>{
+        let firstName=document.getElementById('FirstName').value;
+        let container=document.getElementById('container');
+        container.innerHTML="<div style='color : white; font-size : 35px; font-familly: Raleway Light;text-align:center;padding-top : 25%'> Hello "+firstName+" Welcome to the WebSite</div>";
+
+    });
+
+</script>
+
+</html>
